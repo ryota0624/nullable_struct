@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="031271d8-4916-497c-90a4-3ab4650ea5b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.goenv/versions/1.13.0" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ahG2T76px4W1wIaQiTughT7vUi" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestNullableData_MarshalJSON in github.com/ryota0624/nullable_struct/test">
+    <configuration name="TestNullableDataFrom in github.com/ryota0624/nullable_struct/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nullable_struct" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ryota0624/nullable_struct/test" />
+      <pattern value="^TestNullableDataFrom$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNullableDataFromPtr in github.com/ryota0624/nullable_struct/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nullable_struct" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ryota0624/nullable_struct/test" />
+      <pattern value="^TestNullableDataFromPtr$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNullableData_MarshalJSON in github.com/ryota0624/nullable_struct/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nullable_struct" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ryota0624/nullable_struct/test" />
+      <pattern value="^TestNullableData_MarshalJSON$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNullableData_Ptr in github.com/ryota0624/nullable_struct/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nullable_struct" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ryota0624/nullable_struct/test" />
+      <pattern value="^TestNullableData_Ptr$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNullableData_UnmarshalJSON in github.com/ryota0624/nullable_struct/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="nullable_struct" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ryota0624/nullable_struct/test" />
+      <pattern value="^TestNullableData_UnmarshalJSON$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestNullableDataFromPtr in github.com/ryota0624/nullable_struct/test" />
+      <item itemvalue="Go Test.TestNullableDataFrom in github.com/ryota0624/nullable_struct/test" />
+      <item itemvalue="Go Test.TestNullableData_Ptr in github.com/ryota0624/nullable_struct/test" />
+      <item itemvalue="Go Test.TestNullableData_UnmarshalJSON in github.com/ryota0624/nullable_struct/test" />
+      <item itemvalue="Go Test.TestNullableData_MarshalJSON in github.com/ryota0624/nullable_struct/test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestNullableData_MarshalJSON in github.com/ryota0624/nullable_struct/test" />
+        <item itemvalue="Go Test.TestNullableData_UnmarshalJSON in github.com/ryota0624/nullable_struct/test" />
+        <item itemvalue="Go Test.TestNullableData_Ptr in github.com/ryota0624/nullable_struct/test" />
+        <item itemvalue="Go Test.TestNullableDataFrom in github.com/ryota0624/nullable_struct/test" />
+        <item itemvalue="Go Test.TestNullableDataFromPtr in github.com/ryota0624/nullable_struct/test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+</project>
