@@ -5,7 +5,7 @@ package test
 import (
 	"bytes"
 	"encoding/json"
-	)
+)
 
 // NullableValue is a nullable value. It supports JSON serialization.
 type NullableData struct {
@@ -14,10 +14,10 @@ type NullableData struct {
 }
 
 var (
-	NullData = NullableData{valid: false}
-	emptyDataBytes   = []byte(``)
-	emptyDataJSON    = []byte(`""`)
-	nullDataBytes    = []byte("null")
+	NullData       = NullableData{valid: false}
+	emptyDataBytes = []byte(``)
+	emptyDataJSON  = []byte(`""`)
+	nullDataBytes  = []byte("null")
 )
 
 // DataFrom creates a new NullableData
@@ -52,6 +52,14 @@ func (v NullableData) Ptr() *Data {
 		return nil
 	}
 	return v.value
+}
+
+// Value returns a NullableData's value, or zero value if this NullableData is null.
+func (v NullableData) Value() Data {
+	if !v.valid {
+		return Data{}
+	}
+	return *v.value
 }
 
 // UnmarshalJSON implements json.Unmarshaler.

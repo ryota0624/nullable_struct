@@ -54,6 +54,14 @@ func (v Nullable{{.Type}}) Ptr() *{{.Type}} {
 	return v.value
 }
 
+// Value returns a Nullable{{.Type}}'s value, or zero value if this Nullable{{.Type}} is null.
+func (v Nullable{{.Type}}) Value() {{.Type}} {
+	if !v.valid {
+		return {{.Type}}{}
+	}
+	return *v.value
+}
+
 // UnmarshalJSON implements json.Unmarshaler.
 func (v *Nullable{{.Type}}) UnmarshalJSON(data []byte) error {
 	var value {{.Type}}
